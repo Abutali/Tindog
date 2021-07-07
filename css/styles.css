@@ -1,0 +1,187 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+.container-fluid{
+  padding: 3% 15% 0;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat-bold";
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item{
+  padding: 0 18px;
+}
+.navbar-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+}
+
+/* download-Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.rotate90 {
+     width: 60%;
+     transform: rotate(25deg);
+}
+.iphoneimg{
+  position:absolute;
+  right:25%;
+
+}
+/* Features */
+#features{
+  text-align: center;
+  background-color: white;
+ position: relative;
+
+}
+i{
+  color: #ef8172;
+  padding-bottom: 15px;
+}
+.col-md-4{
+  padding: 80px 30px;
+}
+.row{
+  padding: 100px 0;
+}
+.featuretext{
+  font-size: 1.5rem;
+  font-family: "Montserrat-bold";
+}
+.featurepara{
+    font-size: 1.2rem;
+  color: #8f8f8f;
+    font-family: "Montserrat-bold";
+}
+i:hover{
+  color: #ff4c68;
+}
+
+/* Testimonail Section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffff;
+
+}
+.dog-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Press */
+
+#press{
+  background-color:  #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+
+}
+.presslogo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.row{
+  padding-top: 0;
+}
+.pricetext{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.pricingcol{
+  padding: 3% 2%;
+}
+.space{
+  margin-bottom: 18%;
+}
+/* CTA Section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+
+  padding: 10% 0;
+}
+
+.ctah3{
+  font-family: "Montserrat-black";
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #ffff;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Footer Section */
+#footer{
+  text-align: center;
+  padding: 5% 0;
+}
+.ficon{
+  margin: 2%;
+  color: black;
+}
+.footerpara{
+  font-weight: lighter;
+  font-size: 1rem;
+  font-family: "Montserrat" ;
+}
+ /* Media */
+@media (max-width:767px) {
+  #title{
+    text-align: center;
+  }
+
+  .iphoneimg{
+    position: static;
+    transform: rotate(0);
+
+
+  }
+}
